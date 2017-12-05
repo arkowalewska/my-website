@@ -1,0 +1,414 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-header {
+    margin-bottom: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+section .section-header .section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+section .section-header .section-caption {
+    font-family: 'Droid Serif', sans-serif;
+}
+
+section h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.img-circle {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.social-link {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    line-height: 40px;
+    background-color: #222;
+    border: 1px solid #222;
+    border-radius: 50%;
+    font-size: 1.8em;
+    color: #fff;
+    transition: all .3s;
+    margin: 5px;
+    text-align: center;
+}
+
+.social-link:hover {
+    background-color: #e30e2f;
+    border: 1px solid #e30e2f;
+    color: #fff;
+}
+
+
+/* Main nav styles */
+
+#main-nav {
+    background-color: transparent;
+}
+
+#main-nav a.navbar-brand {
+    color: #fff;
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 2em;
+}
+
+#main-nav .nav-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+}
+
+#main-nav .nav-item a:hover {
+    color: #e30e2f;
+}
+
+#main-nav.scroll {
+    background-color: rgba(227, 14, 47, 0.65);
+}
+
+#main-nav.scroll .nav-item a:hover {
+    color: #777;
+}
+
+/* Main nav styles - END */
+
+/* Main header styles */
+
+#main-header div {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#main-header div:first-of-type {
+    animation: showup 7s infinite;
+}
+
+#main-header div:last-of-type {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+#main-header div:last-of-type span {
+    margin-left: -355px;
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 355px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
+
+#main-header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../img/juliette-leufke-154599.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    max-height: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    padding-top: 40vh;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+/* Main header styles - END*/
+
+/* Section About me */
+
+#about-me {
+    background-image: url(../img/me.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+#about-me .my-description {
+    margin-top: 40px;
+}
+
+#about-me .my-description .signature {
+    font-family: 'Alex Brush', cursive;
+    font-size: 2em;
+}
+
+/* Section About me - END */
+
+/* Paralax effect */
+
+#parallax-first {
+    background-image: url(../img/juliette-leufke-154599.jpg);
+}
+
+.parallax {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Paralax effect END */
+
+/* Section Skills */
+
+#skills img {
+    font-size: 2.8em;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    /*border: 1px solid #0ed8d6;*/
+    /*border-radius: 50%;*/
+    color: #fff;
+    /* background-color: #0ed8d6;*/
+    transition: all .3s;
+}
+
+#skills img:hover {
+    color: #e30e2f;
+    background-color: #fff;
+    transform: rotate(360deg);
+}
+
+/* Section Skills - END */
+
+/* Section Portfolio */
+
+#portfolio {
+    background-color: #f7f7f7;
+}
+
+#portfolio .portfolio-item {
+    background-color: #fff;
+}
+
+#portfolio .portfolio-image {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all .3s;
+}
+
+#portfolio .portfolio-item .portfolio-image-mask {
+    background-color: rgba(227, 14, 47, 0.85);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover {
+    transform: scale(1.5);
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item figcaption {
+    padding: 15px;
+}
+
+.portfolio-link {
+    color: #fff;
+}
+
+.portfolio-link:hover {
+    color: #777;
+}
+
+#portfolio-image-background-1 {
+    background-image: url(../img/portfolio/rawpixel-com-315193.jpg);
+}
+
+#portfolio-image-background-2 {
+    background-image: url(../img/portfolio/thought-catalog-214785-portfolio.jpg);
+}
+
+#portfolio-image-background-3 {
+    background-image: url(../img/portfolio/rawpixel-com-252130.jpg);
+}
+
+#portfolio-image-background-4 {
+    background-image: url(../img/portfolio/rawpixel-com-196509-slider.jpg);
+}
+
+#portfolio-image-background-5 {
+    background-image: url(../img/portfolio/soragrit-wongsa-memorygame.jpg);
+}
+
+#portfolio-image-background-6 {
+    background-image: url(../img/portfolio/carlos-muza-84523-bitcoin.jpg);
+}
+
+/* Section Portfolio - END*/
+
+/* Section Contact */
+
+#contact {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/sergey-zolkin-192937.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contact .section-header,
+#contact .section-header .section-title {
+    color: #fff;
+}
+
+#contact .contact-form .contact-form-column {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+}
+
+#contact input:not([type='submit']),
+#contact textarea {
+    border: 0px solid;
+}
+
+#contact textarea {
+    height: 100%;
+}
+
+#contact input[type='submit'] {
+    background-color: #e30e2f;
+    border: 1px solid #e30e2f;
+    color: #fff;
+    transition: all .3s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#contact input[type='submit']:hover {
+    background-color: #fff;
+    border: 1px solid #e30e2f;
+    color: #e30e2f;
+}
+
+
+/* Section Contact - END */
+
+/* Footer Styles */
+
+#main-footer {
+    padding: 10px 0;
+}
+
+#main-footer .copyright,
+#main-footer .footer-nav {
+    line-height: 50px;
+}
+
+#main-footer .footer-nav .footer-nav-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#main-footer .footer-nav .footer-nav-item a {
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+#main-footer .footer-nav .footer-nav-item a:hover {
+    color: #e30e2f;
+}
+
+
+/* Footer Styles - END */
