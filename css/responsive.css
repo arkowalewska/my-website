@@ -26,5 +26,26 @@
 
 @media (max-width: 765px) {
     #contact textarea {
+        margin-top: 25px;  
+    }
+    #skills img {
         margin-top: 25px;
     }
+    #about-me {
+        background-image: none;
+        background-color: #f6f4f3;
+        height: auto;
+    }
+    #about-me .my-description {
+    font-size: 0.75em;
+    }
+    #about-me figure {
+    display: block;
+    }
+
+}
+/*@media only screen and (max-device-width: 480px) {
+    #skills img {
+        margin-top: 25px;
+    }
+    }*/

@@ -195,13 +195,20 @@ section h3 {
     height: 100vh;
 }
 
+#about-me .section-header {
+    margin-bottom: 0;
+}
+
 #about-me .my-description {
-    margin-top: 40px;
+    font-size: 0.85em;
 }
 
 #about-me .my-description .signature {
     font-family: 'Alex Brush', cursive;
     font-size: 2em;
+}
+#about-me figure {
+    display: none;
 }
 
 /* Section About me - END */
@@ -228,10 +235,7 @@ section h3 {
     height: 80px;
     width: 80px;
     line-height: 80px;
-    /*border: 1px solid #0ed8d6;*/
-    /*border-radius: 50%;*/
     color: #fff;
-    /* background-color: #0ed8d6;*/
     transition: all .3s;
 }
 
