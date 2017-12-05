@@ -21,8 +21,10 @@
 	
 	#main-nav .nav-item a {
 		color: #e30e2f;
-	}
-   
-    
+	} 
 }
 
+@media (max-width: 765px) {
+    #contact textarea {
+        margin-top: 25px;
+    }
