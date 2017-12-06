@@ -22,6 +22,7 @@ section .section-header .section-title {
 
 section .section-header .section-caption {
     font-family: 'Droid Serif', sans-serif;
+    padding: 0 20px 0 20px;
 }
 
 section h3 {
@@ -297,11 +298,11 @@ section h3 {
     padding: 15px;
 }
 
-.portfolio-link {
+#portfolio i {
     color: #fff;
 }
 
-.portfolio-link:hover {
+#portfolio i:hover {
     color: #777;
 }
 
