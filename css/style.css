@@ -105,12 +105,12 @@ section h3 {
 }
 
 #main-header div:last-of-type {
-    width: 0px;
+    width: 355px;
     animation: reveal 7s 1;
 }
 
 #main-header div:last-of-type span {
-    margin-left: -355px;
+    margin-left: 0px;
     animation: slidein 7s 1;
 }
 
@@ -125,7 +125,7 @@ section h3 {
         opacity: 1;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
     }
 }
 
@@ -141,6 +141,7 @@ section h3 {
     }
     100% {
         margin-left: 0px;
+        
     }
 }
 
@@ -160,7 +161,7 @@ section h3 {
         opacity: 1;
     }
     100% {
-        opacity: 0;
+        opacity: 1;
         width: 355px;
     }
 }
