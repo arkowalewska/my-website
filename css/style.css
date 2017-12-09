@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Questrial', serif;
     color: #777;
 }
 
@@ -21,7 +21,7 @@ section .section-header .section-title {
 }
 
 section .section-header .section-caption {
-    font-family: 'Droid Serif', sans-serif;
+    font-family: 'Questrial', sans-serif;
     padding: 0 20px 0 20px;
 }
 
@@ -67,7 +67,7 @@ section h3 {
 
 #main-nav a.navbar-brand {
     color: #fff;
-    font-family: 'Droid Serif', sans-serif;
+    font-family: 'Questrial', sans-serif;
     font-size: 2em;
 }
 
@@ -202,12 +202,12 @@ section h3 {
 }
 
 #about-me .my-description {
-    font-size: 0.85em;
+    font-size: 1em;
 }
 
 #about-me .my-description .signature {
     font-family: 'Alex Brush', cursive;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 #about-me figure {
     display: none;
