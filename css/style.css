@@ -94,22 +94,22 @@ section h3 {
 
 /* Main header styles */
 
-#main-header div {
+#main-header p {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
 }
 
-#main-header div:first-of-type {
+#main-header p:first-of-type {
     animation: showup 7s 1;
 }
 
-#main-header div:last-of-type {
+#main-header p:last-of-type {
     width: 355px;
     animation: reveal 7s 1;
 }
 
-#main-header div:last-of-type span {
+#main-header p:last-of-type span {
     margin-left: 0px;
     animation: slidein 7s 1;
 }
